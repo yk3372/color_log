@@ -1,0 +1,131 @@
+2015-10-13 17:26:49:994 D/LauncherApplication:Init MonitorLogger: com.alipay.mobile.quinox.utils.MonitorLogger
+2015-10-13 17:26:49:998 I/APMTimer:APMTimer
+2015-10-13 17:26:49:999 I/APMTimer:start
+2015-10-13 17:26:49:999 W/APMTimer:register: com.alipay.android.phone.mobilesdk.apm.traffic.TrafficAbuseTrackerTask@4323ef78, 10000, 1800000
+2015-10-13 17:26:50:005 I/monitor:Process Startup: processName=com.eg.android.AlipayGphone, packageName=com.eg.android.AlipayGphone
+2015-10-13 17:26:50:006 I/LauncherApplication:com.alipay.mobile.framework.LauncherApplicationAgent2.preInit(processName=com.eg.android.AlipayGphone, isDebug=false)
+2015-10-13 17:26:50:006 I/monitor:setupHotPatch when processName = mPackageName
+2015-10-13 17:26:50:006 D/Hotpatch:init Hotpatch, app: com.alipay.mobile.quinox.LauncherApplication@431e8e78
+2015-10-13 17:26:50:007 D/LauncherApplication:Init Hotpatch: com.alipay.mobile.hotpatch.Hotpatch
+2015-10-13 17:26:50:008 D/Hotpatch:startHotPatch
+2015-10-13 17:26:50:008 D/hotpatch:isEnableHotPatch:true
+2015-10-13 17:26:50:030 D/hotpatch:device support is true checkedfalse
+2015-10-13 17:26:50:031 W/hotpatch:最新hotpatch对应版本：
+2015-10-13 17:26:50:031 W/hotpatch:当前应用版本：9.2.0.101303
+2015-10-13 17:26:50:031 D/hotpatch:deleteHotPatchFile:
+2015-10-13 17:26:50:032 W/hotpatch:!mMainVersion.equals(settings.getString(HOTPATCH_ON_MAIN_VERSION))
+2015-10-13 17:26:50:032 D/LauncherApplication:Hotpatch: startHotPatch
+2015-10-13 17:26:50:071 I/PatchManager:init:9.2.0.101303
+2015-10-13 17:26:50:082 I/LocaleHelper:initSavedLocale start
+2015-10-13 17:26:50:083 I/LocaleHelper:isSupportMutiLocale true
+2015-10-13 17:26:50:084 I/LocaleHelper:getAvailableFlagByLocale: 1
+2015-10-13 17:26:50:084 I/LocaleHelper:getSavedLocaleFlag 1
+2015-10-13 17:26:50:084 I/LocaleHelper:flag = 1
+2015-10-13 17:26:50:084 I/LocaleHelper:currentLanguage = -1
+2015-10-13 17:26:50:084 I/LocaleHelper:setUploadLocaleFlag true
+2015-10-13 17:26:50:088 I/LocaleHelper:setCurrentLanguage 1
+2015-10-13 17:26:50:092 I/LocaleHelper:setNewLocale 1
+2015-10-13 17:26:50:092 I/LocaleHelper:getAlipayLocaleFlag: 1
+2015-10-13 17:26:50:092 I/LocaleHelper:initSavedLocale end
+2015-10-13 17:26:50:092 I/LauncherApplication:setupLocale
+2015-10-13 17:26:50:106 D/StartupSafeguard:setStartupPending(startupPending=true)
+2015-10-13 17:26:50:111 D/StartupSafeguard:setStartupCrash(startupCrash=true)
+2015-10-13 17:26:50:223 D/LauncherActivityAgent:LauncherActivityAgent.preInit()
+2015-10-13 17:26:50:223 D/welcome:start Welcome 000 
+2015-10-13 17:26:50:225 D/welcome:!needGetSplasherFromDb
+2015-10-13 17:26:50:225 D/welcome:splashers size is null
+2015-10-13 17:26:50:225 D/welcome:start Welcome 2
+2015-10-13 17:26:50:225 D/welcome:start Welcome 999 
+2015-10-13 17:26:50:225 I/commonLogging:traceNativeCrash, filePath:null, isBoot:true
+2015-10-13 17:26:52:829 D/UpgradeHelper:clearOldPluginFiles start: 1444728412829
+2015-10-13 17:26:52:833 D/UpgradeHelper:clearOldPluginFiles end: 1444728412833
+2015-10-13 17:26:52:973 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-logging-1.3.0.jar
+2015-10-13 17:26:52:974 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-monitor-1.3.0.jar
+2015-10-13 17:26:52:974 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-apm-1.3.0.jar
+2015-10-13 17:26:52:975 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-mobilesdk-framework.so
+2015-10-13 17:26:52:977 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-onsitepaystatic-1.3.3.151012202833.jar
+2015-10-13 17:26:52:977 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-wire-1.5.3.jar
+2015-10-13 17:26:52:978 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-achartengine-1.0.0.jar
+2015-10-13 17:26:52:979 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-amaplocation-1.4.0.1.jar
+2015-10-13 17:26:52:980 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-androidannotations-2.7.1.jar
+2015-10-13 17:26:52:981 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-androidquery-0.25.6.jar
+2015-10-13 17:26:52:982 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-androidsupport-13.23.jar
+2015-10-13 17:26:52:983 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-fastjson-1.1.45.jar
+2015-10-13 17:26:52:984 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-infsword-1.4.6.jar
+2015-10-13 17:26:52:985 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-mobilesecuritysdk-2.1.3.jar
+2015-10-13 17:26:52:986 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-nineoldandroids-2.4.0.jar
+2015-10-13 17:26:52:987 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-procguard-1.0.0.jar
+2015-10-13 17:26:53:035 E/BootLoader:copy so: libAPSE_1.0.5.so success.
+2015-10-13 17:26:53:035 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-thirdparty-rdssecuritysdk.so
+2015-10-13 17:26:53:054 E/BootLoader:copy so: libsecuritysdk-2.7.43.so success.
+2015-10-13 17:26:53:054 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-thirdparty-securityguard.so
+2015-10-13 17:26:53:055 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-thirdparty-ssoandroid.so
+2015-10-13 17:26:53:055 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-umid-1.4.2.jar
+2015-10-13 17:26:53:056 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-thirdparty-utdid-1.0.3.jar
+2015-10-13 17:26:53:057 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-globalsearchbase-1.3.3.150928195748.jar
+2015-10-13 17:26:53:075 E/BootLoader:copy so: liblaiwang-searcher.so success.
+2015-10-13 17:26:53:075 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-globalsearch.so
+2015-10-13 17:26:53:076 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilecommon-tag-1.3.0.jar
+2015-10-13 17:26:53:076 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-hotpatch-1.3.0.jar
+2015-10-13 17:26:53:076 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-aspect-1.3.0.jar
+2015-10-13 17:26:53:077 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-storage-1.3.0.jar
+2015-10-13 17:26:53:077 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-commonservice-1.3.0.jar
+2015-10-13 17:26:53:078 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-commonbizservice-1.3.0.jar
+2015-10-13 17:26:53:081 E/BootLoader:copy so: libatlsso.so success.
+2015-10-13 17:26:53:083 E/BootLoader:copy so: libpatcher.so success.
+2015-10-13 17:26:53:083 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-mobilesdk-common.so
+2015-10-13 17:26:53:084 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-rpc-1.3.0.jar
+2015-10-13 17:26:53:086 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-amnet-1.3.0.jar
+2015-10-13 17:26:53:086 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilesdk-ipc-1.3.0.jar
+2015-10-13 17:26:53:087 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-socialwidget.so
+2015-10-13 17:26:53:087 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-openplatform.so
+2015-10-13 17:26:53:089 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-openplatformcommon.so
+2015-10-13 17:26:53:090 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-accountauthbiz.so
+2015-10-13 17:26:53:092 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-accountauth.so
+2015-10-13 17:26:53:112 E/BootLoader:copy so: libedittextutil.so success.
+2015-10-13 17:26:53:120 E/BootLoader:copy so: libmsplua.so success.
+2015-10-13 17:26:53:120 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-phonecashier.so
+2015-10-13 17:26:53:121 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilecommon-cloudfix-1.3.0.jar
+2015-10-13 17:26:53:122 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilecommon-dynamicrelease-1.3.0.jar
+2015-10-13 17:26:53:122 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-mobilecommon-ui.so
+2015-10-13 17:26:53:123 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-mobilecommon-badge.so
+2015-10-13 17:26:53:123 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-wealthcommon.so
+2015-10-13 17:26:53:124 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-wealthhome.so
+2015-10-13 17:26:53:125 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-businesscommon-commonbiz.so
+2015-10-13 17:26:53:125 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-businesscommon-tablauncher.so
+2015-10-13 17:26:53:126 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-o2ocommon.so
+2015-10-13 17:26:53:127 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-o2ohome.so
+2015-10-13 17:26:53:127 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-nfdservice-1.3.3.150925224946.jar
+2015-10-13 17:26:53:128 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-wifisdk-1.3.3.150919130045.jar
+2015-10-13 17:26:53:128 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-openplatformhome.so
+2015-10-13 17:26:53:129 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-publicplatformcommon.so
+2015-10-13 17:26:53:129 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-businesscommon-commandcenter-1.3.3.150929171420.jar
+2015-10-13 17:26:53:130 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-mobileprod-1.3.3.150918171930.jar
+2015-10-13 17:26:53:130 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-abeacon-1.3.3.150919160254.jar
+2015-10-13 17:26:53:131 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-mobilechat-1.3.3.150918180658.jar
+2015-10-13 17:26:53:132 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-securitycommon-aliuser.so
+2015-10-13 17:26:53:133 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-pushservice.so
+2015-10-13 17:26:53:133 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-syncservice.so
+2015-10-13 17:26:53:134 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-pushsdk-1.3.3.151008175730.jar
+2015-10-13 17:26:53:134 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-syncsdk-1.3.3.151012140204.jar
+2015-10-13 17:26:53:135 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-publicplatformsynccenter.so
+2015-10-13 17:26:53:135 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-mobilerelation-1.3.3.150923220611.jar
+2015-10-13 17:26:53:136 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-mcomment-1.3.3.151002132436.jar
+2015-10-13 17:26:53:136 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-mobilecommon-multimedia.so
+2015-10-13 17:26:53:137 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-mobilecommon-map-1.3.0.jar
+2015-10-13 17:26:53:137 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-scanexport-1.3.3.150925143645.jar
+2015-10-13 17:26:53:138 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-transferprod-1.3.3.1509082139.jar
+2015-10-13 17:26:53:151 E/BootLoader:copy so: libflybird.so success.
+2015-10-13 17:26:53:152 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-templatemanager.so
+2015-10-13 17:26:53:152 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-billhome-1.3.3.151010205438.jar
+2015-10-13 17:26:53:153 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-messageboxstatic.so
+2015-10-13 17:26:53:153 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-mobilewealth-1.3.3.150930185702.jar
+2015-10-13 17:26:53:153 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-rpc-mobilelbs-1.3.3.150919120333.jar
+2015-10-13 17:26:53:154 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-rpc-barcodeprod-1.3.3.150919120329.jar
+2015-10-13 17:26:53:154 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-rpc-kabaoprod-1.3.3.150918151505.jar
+2015-10-13 17:26:53:155 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-rpc-livetradeprod-1.3.3.150925171723.jar
+2015-10-13 17:26:53:155 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-rpc-mobilediscovery-1.3.3.150925180319.jar
+2015-10-13 17:26:53:156 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-rpc-mobilegw-1.3.3.150919120332.jar
+2015-10-13 17:26:53:156 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-rpc-mobileinno-1.3.3.150919120333.jar
+2015-10-13 17:26:53:156 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/app_plugins/android-phone-wallet-pushipp-1.3.3.150919191241.jar
+2015-10-13 17:26:53:157 D/BootLoader:pre install path: /data/data/com.eg.android.AlipayGphone/lib/libandroid-phone-wallet-messageboxapp.so
